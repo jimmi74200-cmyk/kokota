@@ -56,6 +56,11 @@ Before running the application, you must configure your credentials in `config.j
 ## 3. Usage
 
 ### Starting the App
+**For Windows Users (Recommended):**
+1. Double-click the `run.bat` file.
+2. It will automatically set up the environment, install dependencies, and launch the application.
+
+**Manual Method:**
 Run the following command:
 ```bash
 python main.py
