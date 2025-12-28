@@ -1,0 +1,26 @@
+{
+    "credentials": {
+        "consumer_key": "YOUR_CONSUMER_KEY",
+        "consumer_secret": "YOUR_CONSUMER_SECRET",
+        "mobile_number": "YOUR_MOBILE_NUMBER",
+        "password": "YOUR_PASSWORD",
+        "mpin": "YOUR_MPIN",
+        "totp_secret": "YOUR_TOTP_SECRET"
+    },
+    "trading_settings": {
+        "default_quantity": 250,
+        "auto_sl_points": 10,
+        "auto_target_points": 20,
+        "enable_auto_sl": true,
+        "enable_auto_target": false
+    },
+    "app_settings": {
+        "use_mock_api": true,
+        "refresh_interval_ms": 1000
+    },
+    "instrument_tokens": {
+        "NIFTY": {"token": "26000", "segment": "nse_cm"},
+        "BANKNIFTY": {"token": "26009", "segment": "nse_cm"},
+        "FINNIFTY": {"token": "26037", "segment": "nse_cm"}
+    }
+}
